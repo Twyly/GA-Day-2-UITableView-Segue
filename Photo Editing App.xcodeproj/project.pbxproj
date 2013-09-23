@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5396AB617EF7D81007D00A9 /* AmalfiCoast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5396AB117EF7D81007D00A9 /* AmalfiCoast.jpg */; };
+		F5396AB717EF7D81007D00A9 /* BambooForest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5396AB217EF7D81007D00A9 /* BambooForest.jpg */; };
+		F5396AB817EF7D81007D00A9 /* Bow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5396AB317EF7D81007D00A9 /* Bow.jpg */; };
+		F5396AB917EF7D81007D00A9 /* GreatWallOfChina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5396AB417EF7D81007D00A9 /* GreatWallOfChina.jpg */; };
+		F5396ABA17EF7D81007D00A9 /* Yosemite.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5396AB517EF7D81007D00A9 /* Yosemite.JPG */; };
+		F5396ABD17EF7E2A007D00A9 /* PEAImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5396ABC17EF7E2A007D00A9 /* PEAImageViewController.m */; };
+		F59A1F8817EF4D9500398411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A1F8717EF4D9500398411 /* Foundation.framework */; };
+		F59A1F8A17EF4D9500398411 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A1F8917EF4D9500398411 /* CoreGraphics.framework */; };
+		F59A1F8C17EF4D9500398411 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A1F8B17EF4D9500398411 /* UIKit.framework */; };
+		F59A1F9217EF4D9500398411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F59A1F9017EF4D9500398411 /* InfoPlist.strings */; };
+		F59A1F9417EF4D9500398411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A1F9317EF4D9500398411 /* main.m */; };
+		F59A1F9817EF4D9500398411 /* PEAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A1F9717EF4D9500398411 /* PEAAppDelegate.m */; };
+		F59A1F9B17EF4D9500398411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59A1F9917EF4D9500398411 /* Main.storyboard */; };
+		F59A1F9E17EF4D9500398411 /* PEAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A1F9D17EF4D9500398411 /* PEAViewController.m */; };
+		F59A1FA017EF4D9500398411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59A1F9F17EF4D9500398411 /* Images.xcassets */; };
+		F59A1FA717EF4D9500398411 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A1FA617EF4D9500398411 /* XCTest.framework */; };
+		F59A1FA817EF4D9500398411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A1F8717EF4D9500398411 /* Foundation.framework */; };
+		F59A1FA917EF4D9500398411 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A1F8B17EF4D9500398411 /* UIKit.framework */; };
+		F59A1FB117EF4D9500398411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F59A1FAF17EF4D9500398411 /* InfoPlist.strings */; };
+		F59A1FB317EF4D9500398411 /* Photo_Editing_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A1FB217EF4D9500398411 /* Photo_Editing_AppTests.m */; };
+		F59A1FBE17EF517B00398411 /* PEATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A1FBD17EF517B00398411 /* PEATableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F59A1FAA17EF4D9500398411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A1F7C17EF4D9500398411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A1F8317EF4D9500398411;
+			remoteInfo = "Photo Editing App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5396AB117EF7D81007D00A9 /* AmalfiCoast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AmalfiCoast.jpg; sourceTree = "<group>"; };
+		F5396AB217EF7D81007D00A9 /* BambooForest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BambooForest.jpg; sourceTree = "<group>"; };
+		F5396AB317EF7D81007D00A9 /* Bow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bow.jpg; sourceTree = "<group>"; };
+		F5396AB417EF7D81007D00A9 /* GreatWallOfChina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreatWallOfChina.jpg; sourceTree = "<group>"; };
+		F5396AB517EF7D81007D00A9 /* Yosemite.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite.JPG; sourceTree = "<group>"; };
+		F5396ABB17EF7E2A007D00A9 /* PEAImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEAImageViewController.h; sourceTree = "<group>"; };
+		F5396ABC17EF7E2A007D00A9 /* PEAImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEAImageViewController.m; sourceTree = "<group>"; };
+		F59A1F8417EF4D9500398411 /* Photo Editing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Editing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A1F8717EF4D9500398411 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F59A1F8917EF4D9500398411 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F59A1F8B17EF4D9500398411 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F59A1F8F17EF4D9500398411 /* Photo Editing App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo Editing App-Info.plist"; sourceTree = "<group>"; };
+		F59A1F9117EF4D9500398411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F59A1F9317EF4D9500398411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F59A1F9517EF4D9500398411 /* Photo Editing App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo Editing App-Prefix.pch"; sourceTree = "<group>"; };
+		F59A1F9617EF4D9500398411 /* PEAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEAAppDelegate.h; sourceTree = "<group>"; };
+		F59A1F9717EF4D9500398411 /* PEAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEAAppDelegate.m; sourceTree = "<group>"; };
+		F59A1F9A17EF4D9500398411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59A1F9C17EF4D9500398411 /* PEAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEAViewController.h; sourceTree = "<group>"; };
+		F59A1F9D17EF4D9500398411 /* PEAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEAViewController.m; sourceTree = "<group>"; };
+		F59A1F9F17EF4D9500398411 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F59A1FA517EF4D9500398411 /* Photo Editing AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Editing AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A1FA617EF4D9500398411 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F59A1FAE17EF4D9500398411 /* Photo Editing AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo Editing AppTests-Info.plist"; sourceTree = "<group>"; };
+		F59A1FB017EF4D9500398411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F59A1FB217EF4D9500398411 /* Photo_Editing_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_Editing_AppTests.m; sourceTree = "<group>"; };
+		F59A1FBC17EF517B00398411 /* PEATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEATableViewController.h; sourceTree = "<group>"; };
+		F59A1FBD17EF517B00398411 /* PEATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEATableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59A1F8117EF4D9500398411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A1F8A17EF4D9500398411 /* CoreGraphics.framework in Frameworks */,
+				F59A1F8C17EF4D9500398411 /* UIKit.framework in Frameworks */,
+				F59A1F8817EF4D9500398411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A1FA217EF4D9500398411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A1FA717EF4D9500398411 /* XCTest.framework in Frameworks */,
+				F59A1FA917EF4D9500398411 /* UIKit.framework in Frameworks */,
+				F59A1FA817EF4D9500398411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F59A1F7B17EF4D9500398411 = {
+			isa = PBXGroup;
+			children = (
+				F59A1F8D17EF4D9500398411 /* Photo Editing App */,
+				F59A1FAC17EF4D9500398411 /* Photo Editing AppTests */,
+				F59A1F8617EF4D9500398411 /* Frameworks */,
+				F59A1F8517EF4D9500398411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F59A1F8517EF4D9500398411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59A1F8417EF4D9500398411 /* Photo Editing App.app */,
+				F59A1FA517EF4D9500398411 /* Photo Editing AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59A1F8617EF4D9500398411 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F59A1F8717EF4D9500398411 /* Foundation.framework */,
+				F59A1F8917EF4D9500398411 /* CoreGraphics.framework */,
+				F59A1F8B17EF4D9500398411 /* UIKit.framework */,
+				F59A1FA617EF4D9500398411 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F59A1F8D17EF4D9500398411 /* Photo Editing App */ = {
+			isa = PBXGroup;
+			children = (
+				F59A1F9617EF4D9500398411 /* PEAAppDelegate.h */,
+				F59A1F9717EF4D9500398411 /* PEAAppDelegate.m */,
+				F59A1F9917EF4D9500398411 /* Main.storyboard */,
+				F59A1F9C17EF4D9500398411 /* PEAViewController.h */,
+				F59A1F9D17EF4D9500398411 /* PEAViewController.m */,
+				F59A1FBC17EF517B00398411 /* PEATableViewController.h */,
+				F59A1FBD17EF517B00398411 /* PEATableViewController.m */,
+				F5396ABB17EF7E2A007D00A9 /* PEAImageViewController.h */,
+				F5396ABC17EF7E2A007D00A9 /* PEAImageViewController.m */,
+				F59A1F9F17EF4D9500398411 /* Images.xcassets */,
+				F59A1F8E17EF4D9500398411 /* Supporting Files */,
+			);
+			path = "Photo Editing App";
+			sourceTree = "<group>";
+		};
+		F59A1F8E17EF4D9500398411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5396AB117EF7D81007D00A9 /* AmalfiCoast.jpg */,
+				F5396AB217EF7D81007D00A9 /* BambooForest.jpg */,
+				F5396AB317EF7D81007D00A9 /* Bow.jpg */,
+				F5396AB417EF7D81007D00A9 /* GreatWallOfChina.jpg */,
+				F5396AB517EF7D81007D00A9 /* Yosemite.JPG */,
+				F59A1F8F17EF4D9500398411 /* Photo Editing App-Info.plist */,
+				F59A1F9017EF4D9500398411 /* InfoPlist.strings */,
+				F59A1F9317EF4D9500398411 /* main.m */,
+				F59A1F9517EF4D9500398411 /* Photo Editing App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F59A1FAC17EF4D9500398411 /* Photo Editing AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F59A1FB217EF4D9500398411 /* Photo_Editing_AppTests.m */,
+				F59A1FAD17EF4D9500398411 /* Supporting Files */,
+			);
+			path = "Photo Editing AppTests";
+			sourceTree = "<group>";
+		};
+		F59A1FAD17EF4D9500398411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59A1FAE17EF4D9500398411 /* Photo Editing AppTests-Info.plist */,
+				F59A1FAF17EF4D9500398411 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59A1F8317EF4D9500398411 /* Photo Editing App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A1FB617EF4D9500398411 /* Build configuration list for PBXNativeTarget "Photo Editing App" */;
+			buildPhases = (
+				F59A1F8017EF4D9500398411 /* Sources */,
+				F59A1F8117EF4D9500398411 /* Frameworks */,
+				F59A1F8217EF4D9500398411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Editing App";
+			productName = "Photo Editing App";
+			productReference = F59A1F8417EF4D9500398411 /* Photo Editing App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59A1FA417EF4D9500398411 /* Photo Editing AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A1FB917EF4D9500398411 /* Build configuration list for PBXNativeTarget "Photo Editing AppTests" */;
+			buildPhases = (
+				F59A1FA117EF4D9500398411 /* Sources */,
+				F59A1FA217EF4D9500398411 /* Frameworks */,
+				F59A1FA317EF4D9500398411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A1FAB17EF4D9500398411 /* PBXTargetDependency */,
+			);
+			name = "Photo Editing AppTests";
+			productName = "Photo Editing AppTests";
+			productReference = F59A1FA517EF4D9500398411 /* Photo Editing AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59A1F7C17EF4D9500398411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PEA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Teddy Wyly";
+				TargetAttributes = {
+					F59A1FA417EF4D9500398411 = {
+						TestTargetID = F59A1F8317EF4D9500398411;
+					};
+				};
+			};
+			buildConfigurationList = F59A1F7F17EF4D9500398411 /* Build configuration list for PBXProject "Photo Editing App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59A1F7B17EF4D9500398411;
+			productRefGroup = F59A1F8517EF4D9500398411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59A1F8317EF4D9500398411 /* Photo Editing App */,
+				F59A1FA417EF4D9500398411 /* Photo Editing AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59A1F8217EF4D9500398411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5396AB817EF7D81007D00A9 /* Bow.jpg in Resources */,
+				F5396AB717EF7D81007D00A9 /* BambooForest.jpg in Resources */,
+				F5396ABA17EF7D81007D00A9 /* Yosemite.JPG in Resources */,
+				F59A1FA017EF4D9500398411 /* Images.xcassets in Resources */,
+				F59A1F9217EF4D9500398411 /* InfoPlist.strings in Resources */,
+				F5396AB617EF7D81007D00A9 /* AmalfiCoast.jpg in Resources */,
+				F59A1F9B17EF4D9500398411 /* Main.storyboard in Resources */,
+				F5396AB917EF7D81007D00A9 /* GreatWallOfChina.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A1FA317EF4D9500398411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A1FB117EF4D9500398411 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59A1F8017EF4D9500398411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A1FBE17EF517B00398411 /* PEATableViewController.m in Sources */,
+				F59A1F9E17EF4D9500398411 /* PEAViewController.m in Sources */,
+				F59A1F9417EF4D9500398411 /* main.m in Sources */,
+				F59A1F9817EF4D9500398411 /* PEAAppDelegate.m in Sources */,
+				F5396ABD17EF7E2A007D00A9 /* PEAImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A1FA117EF4D9500398411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A1FB317EF4D9500398411 /* Photo_Editing_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59A1FAB17EF4D9500398411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A1F8317EF4D9500398411 /* Photo Editing App */;
+			targetProxy = F59A1FAA17EF4D9500398411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59A1F9017EF4D9500398411 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59A1F9117EF4D9500398411 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F59A1F9917EF4D9500398411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59A1F9A17EF4D9500398411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59A1FAF17EF4D9500398411 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59A1FB017EF4D9500398411 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59A1FB417EF4D9500398411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F59A1FB517EF4D9500398411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59A1FB717EF4D9500398411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Editing App/Photo Editing App-Prefix.pch";
+				INFOPLIST_FILE = "Photo Editing App/Photo Editing App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F59A1FB817EF4D9500398411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Editing App/Photo Editing App-Prefix.pch";
+				INFOPLIST_FILE = "Photo Editing App/Photo Editing App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F59A1FBA17EF4D9500398411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photo Editing App.app/Photo Editing App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Editing App/Photo Editing App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Photo Editing AppTests/Photo Editing AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F59A1FBB17EF4D9500398411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photo Editing App.app/Photo Editing App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Editing App/Photo Editing App-Prefix.pch";
+				INFOPLIST_FILE = "Photo Editing AppTests/Photo Editing AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59A1F7F17EF4D9500398411 /* Build configuration list for PBXProject "Photo Editing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A1FB417EF4D9500398411 /* Debug */,
+				F59A1FB517EF4D9500398411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A1FB617EF4D9500398411 /* Build configuration list for PBXNativeTarget "Photo Editing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A1FB717EF4D9500398411 /* Debug */,
+				F59A1FB817EF4D9500398411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A1FB917EF4D9500398411 /* Build configuration list for PBXNativeTarget "Photo Editing AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A1FBA17EF4D9500398411 /* Debug */,
+				F59A1FBB17EF4D9500398411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59A1F7C17EF4D9500398411 /* Project object */;
+}
